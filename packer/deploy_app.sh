@@ -8,8 +8,8 @@ cat << EOM > /var/www/html/index.html
   <div style="width:800px;margin: 0 auto">
 
   <!-- BEGIN -->
-  <center><img src="http://placedog.net/600/400"></img></center>
-  <center><h2>Meow World!</h2></center>
+  <center><img src="https://placedog.net/950/640?r"></img></center>
+  <center><h2>Woof World!</h2></center>
   <!-- END -->
 
   </div>
