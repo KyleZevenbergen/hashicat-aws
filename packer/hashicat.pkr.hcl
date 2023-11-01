@@ -9,7 +9,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "learn-packer-linux-aws"
+  ami_name      = "hashicat"
   instance_type = "t2.micro"
   region        = "us-east-1"
   profile       = "dev"
@@ -26,7 +26,7 @@ source "amazon-ebs" "ubuntu" {
 }
 
 build {
-  name    = "learn-packer"
+  name    = "build_hashicat"
   sources = [
     "source.amazon-ebs.ubuntu"
   ]
