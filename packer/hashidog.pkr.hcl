@@ -9,7 +9,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "hashicat"
+  ami_name      = "hashidog"
   instance_type = "t2.micro"
   region        = "us-east-1"
   profile       = "dev"
@@ -26,7 +26,7 @@ source "amazon-ebs" "ubuntu" {
 }
 
 build {
-  name    = "build_hashicat"
+  name    = "build_hashidog"
   sources = [
     "source.amazon-ebs.ubuntu"
   ]
