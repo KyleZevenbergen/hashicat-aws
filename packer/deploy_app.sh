@@ -3,13 +3,12 @@
 # The web app has a customizable image and some text.
 cat << EOM > /var/www/html/index.html
 <html>
-  <head><title>Meow!</title></head>
+  <head><title>Woof!</title></head>
   <body>
-  <div style="width:800px;margin: 0 auto">
+  <div>
 
   <!-- BEGIN -->
-  <center><img src="https://placedog.net/950/640?r"></img></center>
-  <center><h2>Woof World!</h2></center>
+  <center><img src="https://placedog.net/1000/s/?r"></img></center>
   <!-- END -->
 
   </div>
