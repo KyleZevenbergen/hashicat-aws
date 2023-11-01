@@ -1,8 +1,8 @@
 # Outputs file
-output "catapp_url" {
+output "hashidog_url" {
   value = "http://${aws_eip.hashidog.public_dns}"
 }
 
-output "catapp_ip" {
+output "hashidog_ip" {
   value = "http://${aws_eip.hashidog.public_ip}"
 }

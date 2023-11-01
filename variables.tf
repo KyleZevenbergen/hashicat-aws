@@ -52,3 +52,7 @@ variable "placeholder" {
 variable "ami_id" {
   type = string
 }
+
+variable "terramino_ami_id" {
+  type = string
+}
