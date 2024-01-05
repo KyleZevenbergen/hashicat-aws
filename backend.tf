@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "ACME_CLOUD_INFRA"
+    organization = "ECORPSOCIETY"
     workspaces {
       name = "hashidog"
     }
